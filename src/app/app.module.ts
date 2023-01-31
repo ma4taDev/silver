@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './Page/header/header.component';
-import { LandingComponent } from './Page/landing/landing.component';
-import { FooterComponent } from './Page/footer/footer.component';
-import { SearchComponent } from './Page/search/search.component';
+import { HeaderComponent } from './components/shared/header/header.component';
+import { LandingComponent } from './pages/landing/landing.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
+import { SearchComponent } from './components/search/search.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { DropdownComponent } from './components/shared/dropdown/dropdown.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { SearchComponent } from './Page/search/search.component';
     HeaderComponent,
     LandingComponent,
     FooterComponent,
-    SearchComponent
+    SearchComponent,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

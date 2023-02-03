@@ -13,6 +13,13 @@ hr {
     border-top: 3px solid;
 }
 
+.hr-down {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
 // a {
 //     margin-top: 10px;
 //     margin-bottom: 10px;

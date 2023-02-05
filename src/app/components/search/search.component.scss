@@ -2,20 +2,30 @@
     color: white;
 }
 
-
 button {
-  border: none;
-  color: white;
-  background-color: #497173;
-  border-radius: 8px;
-  margin-top: 12px;
-  width: 80px;
-  height: 30px;
+    border: none;
+    color: white;
+    background-color: #497173;
+    border-radius: 8px;
+    margin-top: 12px;
+    // width: 80px;
+    height: 30px;
 }
 
 .input-search {
-  border-radius: 3px;
-  border: none;
-  // width: 47%;
-  height: 35px;
+    border-radius: 3px;
+    border: none;
+    // width: 47%;
+    height: 35px;
+}
+
+@media screen and (min-width: 268px) and (max-width: 1200px) {
+    .input-search {
+        // margin-inline-end: 0 !important;
+        // margin-inline-start: 0 !important;
+        margin-top: 4px;
+    }
+    .rmargin {
+        margin-left: 0px;
+    }
 }

@@ -4,7 +4,7 @@
 }
 
 .img-info {
-    height: 42vh;
+    height: 75vh;
     object-fit: cover;
     // width: 565px;
     // margin-top: 30px;
@@ -12,18 +12,36 @@
     border-radius: 5px;
 }
 
-// .infotext {
-//     margin-top: 60px;
-// }
 .category-div {
     >div {
+        // box-shadow: 130px 130px 130px 130px white !important;
+        background-color: white;
         border-radius: 5px;
         border: 1px solid #ccc;
         background-color: white;
+        margin-top: -50px;
         a {
-            color: black
+            color: black;
         }
     }
+}
+
+@media screen and (min-width: 268px) and (max-width: 1200px) {
+    .category-div {
+        >div {
+            margin-top: 0 !important;
+        }
+    }
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: #497173;
+    border-radius: 8px;
+    margin-top: 12px;
+    width: 180px;
+    height: 40px;
 }
 
 .option-offer {

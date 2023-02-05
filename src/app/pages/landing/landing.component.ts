@@ -13,5 +13,8 @@ export class LandingComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  changecolor(){
+ 
+  }
 
 }

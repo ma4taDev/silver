@@ -1,41 +1,58 @@
 .seg1-img {
-  background-image: url("/assets/a-farmhouse-style-living-room-with-plenty-of-rustic-artwork--5af6b93d81a21ba97e7c0cc2f43e7247.avif");
-  height: 32rem;
+    background-image: url("/assets/a-farmhouse-style-living-room-with-plenty-of-rustic-artwork--5af6b93d81a21ba97e7c0cc2f43e7247.avif");
+    height: 32rem;
 }
 
 .img-info {
-  height: 42vh;
-  object-fit: cover;
-  // width: 565px;
-  // margin-top: 30px;
-  // margin-left: 50px;
-  border-radius: 5px;
+    height: 42vh;
+    object-fit: cover;
+    // width: 565px;
+    // margin-top: 30px;
+    // margin-left: 50px;
+    border-radius: 5px;
 }
 
 // .infotext {
 //     margin-top: 60px;
 // }
-
-.category {
-
-}
-
 .category-div {
-  >div{
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: white;
-    a{
-      color:black
+    >div {
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background-color: white;
+        a {
+            color: black
+        }
     }
-  }
 }
 
 .option-offer {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  // margin: 1px 1px 1px 1px;
-  // margin-right: 2%;
-  // margin-left: 2%;
-  // margin-top: 2%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 100%;
+    margin-bottom: 30px;
+    // margin: 1px 1px 1px 1px;
+    // margin-right: 2%;
+    // margin-left: 2%;
+    // margin-top: 2%;
+}
+
+.option-offer button {
+    background-color: #4b4e61;
+    color: white;
+    margin: 10px;
+    border-radius: 3px;
+    border: none;
+    width: 109px;
+}
+
+.heart {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: -55px;
+    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: flex-end;
+    margin-right: 5px;
 }

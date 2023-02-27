@@ -3,6 +3,12 @@
     height: 32rem;
 }
 
+@media screen and (min-width: 268px) and (max-width: 1200px) {
+    .seg1-img {
+        height: 37rem;
+    }
+}
+
 .img-info {
     height: 90%;
     object-fit: cover;
